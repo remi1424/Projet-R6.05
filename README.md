@@ -37,6 +37,11 @@ Pour que l'application fonctionne correctement, vous devez définir les variable
     DB_NAME=movies_db
     ```
 
+4. Lancement du projet :
+    `docker run -d --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user mysql:8.0 --default-authentication-plugin=mysql_native_password
+    npm start
+   `
+   
 ## Exécution des migrations
 
 Pour exécuter les migrations de base de données, utilisez la commande suivante :
