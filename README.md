@@ -38,7 +38,8 @@ Pour que l'application fonctionne correctement, vous devez définir les variable
     ```
 
 4. Lancement du projet :
-    ```shdocker run -d --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user mysql:8.0 --default-authentication-plugin=mysql_native_password
+    ```sh
+    docker run -d --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user mysql:8.0 --default-authentication-plugin=mysql_native_password
     npm start
    ```
    
