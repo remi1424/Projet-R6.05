@@ -1,4 +1,4 @@
-# iut-project
+# Projet Node
 
 ## Présentation du projet
 
